@@ -1,0 +1,6 @@
+@media all and (max-width: 768px){
+    .carrusel-responsive{
+        height: 250px;
+        object-fit: cover;
+    }
+}
