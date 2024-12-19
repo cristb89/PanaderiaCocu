@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+
+@media all and (max-width:767px){
+    .banner-responsive{
+        height: 250px;
+        object-fit: cover;
+        object-position: 65%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px){
+    .banner-responsive{
+        height: 350px;
+        object-fit: cover;
+        object-position: 65%;
+    }
+}
