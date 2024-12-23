@@ -50,7 +50,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Medialuna</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium numquam quisquam aspernatur aperiam, a perspiciatis!</p>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ventana-modal">Ver más</button>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ventana-modal-medialuna">Ver más</button>
                         </div>
                     </div>
                 </aside>
@@ -70,7 +70,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Pan De Molde</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium numquam quisquam aspernatur aperiam, a perspiciatis!</p>
-                            <a class="btn btn-primary" href="../pages/error404.html" title="Detalles de este producto">Ver más</a>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ventana-modal-panDeMolde">Ver más</button>
                         </div>
                     </div>
                 </aside>
@@ -156,12 +156,12 @@
                 </aside>
             </div>
         </section>
-        <!-- VENTANA MODAL -->
-        <div class="modal fade" id="ventana-modal" tabindex="-1" aria-labelledby="ventana-modal-Label" aria-hidden="true">
+        <!-- VENTANAS MODAL -->
+        <div class="modal fade" id="ventana-modal-medialuna" tabindex="-1" aria-labelledby="ventana-modal-medialuna-Label" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h2 class="modal-title fs-5" id="ventana-modal-Label">Medialuna</h2>
+                        <h2 class="modal-title fs-5" id="ventana-modal-medialuna-Label">Medialuna</h2>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -170,6 +170,23 @@
                     </div>
                     <div class="modal-footer">
                         <p>Precio: <span class="fw-bolder">$3000</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="ventana-modal-panDeMolde" tabindex="-1" aria-labelledby="ventana-modal-panDeMolde-Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="ventana-modal-panDeMolde-Label">Pan De Molde</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="w-100 mb-3" src="../img/productos/pan-de-molde.jpg" alt="Pan de molde">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima rerum non blanditiis quia, incidunt pariatur, ea ullam quisquam dolore nesciunt vitae assumenda delectus accusantium nihil, aperiam expedita rem doloremque ab facere officiis labore corporis iusto sequi culpa? Fugiat rerum expedita magnam voluptas unde impedit quas blanditiis labore! Dicta, tempore hic.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <p>Precio: <span class="fw-bolder">$5000</span></p>
                     </div>
                 </div>
             </div>
